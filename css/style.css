@@ -1,1 +1,50 @@
+/* BODY */
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+        font-size: 1.6rem;
+        margin: 0;
+
+}
 /* HEADER */
+.header-lp{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/img/Layer\ 24.png);
+    background-repeat: no-repeat;
+    height: 80rem;
+    display: grid;
+    .logo,
+    .header-text, button{
+        color: white;
+        margin-left: 340px;
+    }
+    .logo{
+        margin-top: 4rem;
+        font-size: 13px;
+    }
+    .title{
+        margin-bottom: 5rem;
+        font-size: 48px;
+    }
+    .desc{
+        margin-bottom: 4rem;
+        font-size: 17px;
+    }
+    button{
+        font-size: 13px;
+        text-transform: uppercase;
+        margin: 0;
+        background: none;
+        border-style: solid;
+        cursor: pointer;
+        width: 13rem;
+        height: 5rem;
+    }
+}
+/*  */
