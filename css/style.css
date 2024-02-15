@@ -190,6 +190,12 @@ font-family: "Proxima Nova";
 .img-table{
     background-image: url(/img/Layer\ 4.png);
 }
+.link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 10rem;
+}
 .article-link{
     text-decoration: none;
     color:#ef4035;
@@ -265,6 +271,7 @@ font-family: "Proxima Nova";
     background-color: #ef4035;
     border: #ef4035;
     width: 100%;
+    height: 10rem
 }
 /* FOOTER */
 footer{
