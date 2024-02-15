@@ -59,19 +59,19 @@ h1{
         margin-bottom: 4rem;
         font-size: 17px;
     }
-}
-button{
-    color: white;
-    font-size: 14px;
-    letter-spacing: 1px;
-    line-height: 24px;
-    text-transform: uppercase;
-    margin: 0;
-    background: none;
-    border-style: solid;
-    cursor: pointer;
-    width: 157px;
-    height: 60px;
+    button{
+        color: white;
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: 24px;
+        text-transform: uppercase;
+        margin: 0;
+        background: none;
+        border-style: solid;
+        cursor: pointer;
+        width: 157px;
+        height: 60px;
+    }
 }
 /* SERVICES */
 .services-lp{
@@ -107,13 +107,29 @@ button{
     width: 1920px;
     height: 891px;
     background-color: #28282e;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     place-content: center;
-section-title{
+    .project-text{
+        margin-left: 340px;
+    }
+.section-title{
     color: white; 
 }
 .section-desc{
     color: white; 
+}
+button{
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin: 0;
+    background: none;
+    border-style: solid;
+    cursor: pointer;
+    width: 157px;
+    height: 60px;
 }
 }
