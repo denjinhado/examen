@@ -182,8 +182,20 @@ font-family: "Proxima Nova";
     margin-left: 340px;
     margin-right: 340px;
 }
+.table{
+    width: 65%;
+    height: 100%;
+    margin-left: 340px;
+}
 .img-table{
     background-image: url(/img/Layer\ 4.png);
+}
+.article-link{
+    text-decoration: none;
+    color:#ef4035;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 /* WHO ARE WE */
 .us-lp{
