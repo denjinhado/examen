@@ -104,6 +104,30 @@ button{
         margin: 0;
     }
 }
+.email-form{
+    margin-left: 340px;
+    .text-email{
+        width: 40rem;
+    }
+    label{
+        color: #28282e;
+    }
+}
+.form-button{
+    color: #28282e;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin-top: 2rem;
+    background: none;
+    border: #28282e solid 2px;
+    cursor: pointer;
+    width: 15rem;
+    height: 5rem;
+}
+.error-message {
+    color: red;
+}
 /* PROJECT */
 .project-lp{
     width: 1920px;
