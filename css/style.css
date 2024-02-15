@@ -77,12 +77,18 @@ button{
     width: 1920px;
     height: 891px;
     background-color: rgb(246, 246, 246);
-    display: flex;
-    flex-direction: column;
-    place-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
     h1,
     p{
         margin-left: 340px;
+    }
+    .services-text{
+        place-self: center;
+    }
+    img{
+        place-self: center;
     }
     .section-desc{
         margin-top: 5rem;
@@ -208,15 +214,21 @@ font-family: "Proxima Nova";
     width: 1920px;
     height: 891px;
     background-color: rgb(246, 246, 246);
-    display: flex;
-    flex-direction: column;
-    place-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
     h1, h2,
     p{
         margin-left: 340px;
     }
     h2{
         color: #ef4035;
+    }
+    .us-text{
+        place-self: center;
+    }
+    img{
+        place-self: center;
     }
     .section-desc{
         margin-top: 5rem;
