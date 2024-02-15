@@ -147,3 +147,49 @@ font-family: "Proxima Nova";
     filter: invert();
 }
 }
+/* WHO ARE WE */
+.us-lp{
+    width: 1920px;
+    height: 891px;
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    h1, h2,
+    p{
+        margin-left: 340px;
+    }
+    h2{
+        color: #ef4035;
+    }
+    .section-desc{
+        margin-top: 5rem;
+        width: 435px;
+        height: 39px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+/* SLOW LIFE */
+.slowlife-lp{
+    width: 1920px;
+    height: 891px;
+    background-color: #28282e;
+    align-items: center;
+    .section-title{
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 53px;
+        letter-spacing: 1px;
+        line-height: 72px;
+        color: #ffffff;
+            color: white;
+            text-transform: capitalize; 
+        }
+        .section-desc{
+            text-align: center;
+        font-size: 18px;
+        line-height: 26px;
+        color: #ffffff;
+        }
+}
