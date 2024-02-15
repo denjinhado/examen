@@ -14,16 +14,11 @@ line-height: 24px;
 margin: 0;
 
 }
-h1{
-    margin: 0;
-
-}
 button{
     color: white;
     font-size: 14px;
     letter-spacing: 1px;
     line-height: 24px;
-    text-transform: uppercase;
     margin: 0;
     background: none;
     border-style: solid;
@@ -73,7 +68,9 @@ button{
         margin-bottom: 4rem;
         font-size: 17px;
     }
-
+    button{
+        text-transform: uppercase;
+    }
 }
 /* SERVICES */
 .services-lp{
@@ -96,13 +93,16 @@ button{
     }
 }
 /* WORKS */
-.works-lp{
+.works-text{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     place-content: center;
     height:15rem;
     margin-left: 340px;
     margin-right: 340px;
+    h1{
+        margin: 0;
+    }
 }
 /* PROJECT */
 .project-lp{
@@ -114,6 +114,9 @@ button{
     place-content: center;
     .project-text{
         margin-left: 340px;
+    }
+    button{
+        text-transform: uppercase;
     }
 .section-title{
 font-size: 53px;
@@ -147,6 +150,14 @@ font-family: "Proxima Nova";
     filter: invert();
 }
 }
+/* ARTICLE */
+.article-text{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    margin-left: 340px;
+    margin-right: 340px;
+}
 /* WHO ARE WE */
 .us-lp{
     width: 1920px;
@@ -176,6 +187,9 @@ font-family: "Proxima Nova";
     height: 891px;
     background-color: #28282e;
     align-items: center;
+    h1{
+        margin: 0;
+    }
     .section-title{
         text-align: center;
         text-transform: capitalize;
@@ -192,4 +206,9 @@ font-family: "Proxima Nova";
         line-height: 26px;
         color: #ffffff;
         }
+}
+.footer-button{
+    background-color: #ef4035;
+    border: #ef4035;
+    width: 100%;
 }
