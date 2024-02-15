@@ -9,42 +9,111 @@ html{
 }
 
 body{
-        font-size: 1.6rem;
-        margin: 0;
+font-size: 1.6rem;
+line-height: 24px;
+margin: 0;
 
+}
+h1{
+    margin: 0;
+}
+.section-title{
+    text-transform: uppercase;
+    font-size: 53px;
+    letter-spacing: 1px;
+    line-height: 72px;
+    color: #333333;
+    font-weight: 700;
+}
+.section-desc{
+    color: #888888;
 }
 /* HEADER */
 .header-lp{
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/img/Layer\ 24.png);
     background-repeat: no-repeat;
-    height: 80rem;
+    max-width: 1920px;
+    height: 892px;
     display: grid;
     .logo,
     .header-text, button{
         color: white;
         margin-left: 340px;
     }
+    .briefcase{
+        width: 32px;
+        height: 30px;
+    }
     .logo{
+        display: flex;
         margin-top: 4rem;
         font-size: 13px;
     }
     .title{
         margin-bottom: 5rem;
         font-size: 48px;
+        line-height: 57px;
+        font-weight: 300;
     }
     .desc{
         margin-bottom: 4rem;
         font-size: 17px;
     }
-    button{
-        font-size: 13px;
-        text-transform: uppercase;
-        margin: 0;
-        background: none;
-        border-style: solid;
-        cursor: pointer;
-        width: 13rem;
-        height: 5rem;
+}
+button{
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin: 0;
+    background: none;
+    border-style: solid;
+    cursor: pointer;
+    width: 157px;
+    height: 60px;
+}
+/* SERVICES */
+.services-lp{
+    width: 1920px;
+    height: 891px;
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    h1,
+    p{
+        margin-left: 340px;
+    }
+    .section-desc{
+        margin-top: 5rem;
+        width: 435px;
+        height: 39px;
+        font-size: 18px;
+        line-height: 26px;
     }
 }
-/*  */
+/* WORKS */
+.works-lp{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-content: center;
+    height:15rem;
+    margin-left: 340px;
+    margin-right: 340px;
+}
+/* PROJECT */
+.project-lp{
+    width: 1920px;
+    height: 891px;
+    background-color: #28282e;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+section-title{
+    color: white; 
+}
+.section-desc{
+    color: white; 
+}
+}
