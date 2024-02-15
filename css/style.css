@@ -16,6 +16,20 @@ margin: 0;
 }
 h1{
     margin: 0;
+
+}
+button{
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin: 0;
+    background: none;
+    border-style: solid;
+    cursor: pointer;
+    width: 157px;
+    height: 60px;
 }
 .section-title{
     text-transform: uppercase;
@@ -36,7 +50,7 @@ h1{
     height: 892px;
     display: grid;
     .logo,
-    .header-text, button{
+    .header-text{
         color: white;
         margin-left: 340px;
     }
@@ -59,19 +73,7 @@ h1{
         margin-bottom: 4rem;
         font-size: 17px;
     }
-    button{
-        color: white;
-        font-size: 14px;
-        letter-spacing: 1px;
-        line-height: 24px;
-        text-transform: uppercase;
-        margin: 0;
-        background: none;
-        border-style: solid;
-        cursor: pointer;
-        width: 157px;
-        height: 60px;
-    }
+
 }
 /* SERVICES */
 .services-lp{
@@ -114,22 +116,34 @@ h1{
         margin-left: 340px;
     }
 .section-title{
-    color: white; 
+font-size: 53px;
+letter-spacing: 1px;
+line-height: 72px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Open Sans";
+    color: white;
+    text-transform: capitalize; 
 }
 .section-desc{
-    color: white; 
+width: 418px;
+height: 99px;
+font-size: 18px;
+line-height: 26px;
+color: #ffffff;
+font-family: "Proxima Nova"; 
 }
-button{
-    color: white;
-    font-size: 14px;
-    letter-spacing: 1px;
-    line-height: 24px;
-    text-transform: uppercase;
-    margin: 0;
-    background: none;
-    border-style: solid;
-    cursor: pointer;
-    width: 157px;
-    height: 60px;
+
+.icon{
+    margin-top: 2rem;
+    margin-right: 32rem;
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+}
+.icons{
+    width: 4rem;
+    margin-right: 2rem;
+    filter: invert();
 }
 }
