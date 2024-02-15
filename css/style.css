@@ -158,6 +158,9 @@ font-family: "Proxima Nova";
     margin-left: 340px;
     margin-right: 340px;
 }
+.img-table{
+    background-image: url(/img/Layer\ 4.png);
+}
 /* WHO ARE WE */
 .us-lp{
     width: 1920px;
