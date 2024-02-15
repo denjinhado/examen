@@ -189,11 +189,14 @@ font-family: "Proxima Nova";
     width: 1920px;
     height: 891px;
     background-color: #28282e;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
     h1{
         margin: 0;
     }
     .section-title{
+        margin-bottom: 10rem;
         text-align: center;
         text-transform: capitalize;
         font-size: 53px;
@@ -204,14 +207,40 @@ font-family: "Proxima Nova";
             text-transform: capitalize; 
         }
         .section-desc{
+            margin: 0 auto;
+            width: 660px;
+            height: 117px;
             text-align: center;
         font-size: 18px;
         line-height: 26px;
         color: #ffffff;
         }
 }
+.carousel-inner {
+    width: 50%;
+    margin: auto;
+}
+.carousel-indicators button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+}
 .footer-button{
     background-color: #ef4035;
     border: #ef4035;
     width: 100%;
+}
+/* FOOTER */
+footer{
+    height: 140px;
+    background-color: #28282e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #888888;
+    p{
+        margin-left: 14rem;
+        margin-right: 14rem;
+    }
 }
